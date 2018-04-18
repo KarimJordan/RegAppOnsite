@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load rest_framework %}
+{% load staticfiles %}
+{% load extra_tags %}
+
+{% block title %}
+    Guest
+{% endblock %}
+
+{% block script_start %}
+    <script>
+        var guest = {{ guest|jsonify }}
+        var guest_fields = {{ guest_fields|jsonify }}
+        var event_id = {{ event_id }}
+        var csrf = "{{ csrf_token }}"
+    </script>
+{% endblock %}
+
+{% block content %}
+    <guest-form></guest-form>
+{% endblock %}
+
+{% block scripts_end %}
+    <script src="{% static "compiled/js/guest.js" %}"></script>
+{% endblock scripts_end %}

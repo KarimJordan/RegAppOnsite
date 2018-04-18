@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load rest_framework %}
+{% load staticfiles %}
+{% load extra_tags %}
+
+{% block script_start %}
+    <script>
+        var guest_fields = {{ guest_fields|jsonify }}
+        var event_id = {{ event_id }}
+        var guest_default_dict =
+        {{ guest_default_dict|jsonify }}
+        var csrf = "{{ csrf_token }}"
+        var duplicates_list =
+        {{ duplicates_list|jsonify }}
+    </script>
+{% endblock %}
+
+{% block title %}
+    Duplicates
+{% endblock %}
+
+{% block content %}
+    <event-duplicate></event-duplicate>
+{% endblock %}
+
+{% block scripts_end %}
+    <script src="{% static "compiled/js/event.js" %}"></script>
+{% endblock scripts_end %}

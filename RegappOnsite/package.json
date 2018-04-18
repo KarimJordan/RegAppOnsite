@@ -1,0 +1,15 @@
+{
+  "name": "regapponsite",
+  "version": "1.0.0",
+  "description": "regapponsite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "node_modules/.bin/webpack -w --progress"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
+}

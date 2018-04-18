@@ -1,0 +1,566 @@
+
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+.edit-layout-icn {
+    color: $main;
+    font-size: 16px;
+}
+.delete-icn {
+    .icn-trash {
+        color: red !important;
+    }
+}
+.delete-layout-icn {
+    color: red;
+    font-size: 16px;
+}
+a.pull-right.btn.btn-undo {
+    padding-left:0px !important;
+}
+.btn-undo{
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 3px 6px;
+    font-size: 12px;
+    line-height: 1.42857;
+    border-radius: 3px;
+    background: $maindark;
+    color: #fff !important; 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+.btn-edit{
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 3px 6px;
+    font-size: 12px;
+    line-height: 1.42857;
+    border-radius: 3px;
+    background: $main;
+    color: $white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+
+.raffler-delete:hover {
+    color: red;
+}
+
+.btn-delete {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 3px 6px;
+    font-size: 12px;
+    line-height: 1.42857;
+    border-radius: 3px;
+    background: red;
+    color: $white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+
+.btn-default-layout {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.42857;
+    border-radius: 4px;
+    background: $main;
+    color: $white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 900;
+    height: 50px;
+   
+}
+
+
+
+
+.btn-send-invite {
+	display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.42857;
+    border-radius: 4px;
+	background: $main;
+	color: $white;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+    font-weight: 900;
+	height: 50px;
+	width: 100%;
+}
+
+.btn-send-invite:hover {
+	color: $maingray;
+	}
+
+.btn-manage-g {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    border-radius: 4px;
+    border: solid 2px $maingray;
+    color: $white;
+    background: $maingray;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    height: 40px;
+    width: 100%;
+}
+
+
+.btn-manage-g:hover {
+    background: $main;
+    color: $white;
+    border: none;
+    }
+
+
+.btn-email-t {
+	display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.42857;
+    border-radius: 4px;
+    border: solid 2px $main;
+	color: $white;
+	background: $main;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	height: 50px;
+	width: 100%;
+}
+
+
+.btn-email-t:hover {
+	background: $maingray;
+	color: $white;
+    border: none;
+	}
+
+.btn.btn-add-field {
+    font-family: 'Montserrat', sans-serif;
+    color: $white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: $main;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    height: 45px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+    max-width: 300px;
+}
+
+.btn.btn-create-event {
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: $white;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    background-color: $main;
+    padding: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    height: 50px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+    max-width: 300px;
+}
+.btn.btn-preview {
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: $white;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    background-color: $subgray;
+    padding: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    height: 50px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+    max-width: 300px;
+}
+
+.btn.btn-create-event:hover {
+    background: $lmain;
+    color: $white;
+}
+
+
+.fileUpload {
+
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    width: 70px;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.btn-edit-settings {
+    border: solid 2px #000 !important;
+    margin-top: 30px;
+    height: 60px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    background-color: $white;
+    padding: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    height: 45px;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100px!important;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+    min-width: 200px;
+    max-width: 300px;
+}
+
+.btn-edit-info {
+    border: solid 2px $main !important;
+    margin-top: 30px;
+    height: 60px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    background-color: $main;
+    padding: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    height: 45px;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100px!important;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+    min-width: 200px;
+    max-width: 300px;
+}
+.btn-manage-event {
+    border: solid 2px $main !important;
+    margin-top: 15px;
+    height: 60px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: $main;
+    padding: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    height: 45px;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100px!important;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+    min-width: 200px;
+    max-width: 300px;
+}
+
+.btn-edit-settings:hover {
+    background: #000;
+    color: $main !important;
+}
+
+.btn-disabled {
+    background: $subgray;
+    color: $lgray;
+}
+.btn-disabled:hover {
+    background: $subgray;
+    color: $lgray;
+}
+.check-disabled {
+    label {
+        color: $lgray;
+    }
+}
+
+
+// radio Button 
+
+
+
+ #input1 {
+      display: none;
+    }
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #000;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    border-radius: 100%;
+   
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #000;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+
+
+
+// checkbox goes here
+.checkbox {
+    padding-left: 0!important;
+}
+.checkbox label {
+    color: #000;
+
+}
+
+.checkbox input[type="checkbox"] {
+    opacity: 0;
+}
+
+.checkbox label {
+    position: relative;
+    display: inline-block;
+    /*16px width of fake checkbox + 6px distance between fake checkbox and text*/
+    padding-left: 22px;
+}
+
+.checkbox label::before,
+.checkbox label::after {
+    position: absolute;
+    content: "";
+    /*Needed for the line-height to take effect*/
+    display: inline-block;
+}
+
+/*Outer box of the fake checkbox*/
+.checkbox label::before{
+    height: 16px;
+    width: 16px;
+    border-radius: 3px;
+    border: 2px solid;
+    left: 0px;
+    
+    /*(24px line-height - 16px height of fake checkbox) / 2 - 1px for the border
+     *to vertically center it.
+     */
+   
+}
+
+/*Checkmark of the fake checkbox*/
+.checkbox label::after {
+    height: 5px;
+    width: 9px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    
+    transform: rotate(-45deg);
+    
+    left: 4px;
+    top: 4px;
+}
+
+/*Hide the checkmark by default*/
+.checkbox input[type="checkbox"] + label::after {
+    content: none;
+}
+
+/*Unhide on the checked state*/
+.checkbox input[type="checkbox"]:checked + label::after {
+    content: "";
+}
+
+
+
+// Selectbox Starts Here
+
+
+.select_box{
+  overflow: hidden;
+  border: 1px solid $maingray;
+  border-radius: 3px;
+  position: relative;
+  padding: 10px 0;
+  background: #fff;
+}
+.select_box:after{
+  width: 0; 
+  height: 0; 
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #000;
+  position: absolute;
+  top: 40%;
+  right: 5px;
+  content: "";
+  z-index: 98;
+ }
+.select_box select{
+width: 110%;
+  border: 0;
+  position: relative;
+  z-index: 99;
+  background: none;
+}
+
+
+.fa {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.action-drop-btn {
+    display: block;
+    max-width: 200px;
+}
+
+.add-c-field {
+    margin-top: 20px !important;
+}
+
+.icn-delete-style {
+    .icon-trash {
+        color: red;
+    }
+    .icon-trash:hover {
+        color: $main;
+    }
+}
+
+.remove {
+    margin-left: 5px;
+}

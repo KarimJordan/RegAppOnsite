@@ -1,0 +1,11 @@
+node_modules
+ertbot
+
+db_BACKUP_7004.sqlite3
+db_REMOTE_7004.sqlite3
+db_LOCAL_7004.sqlite3
+db_BASE_7004.sqlite3
+db.sqlite3
+
+.git
+.idea

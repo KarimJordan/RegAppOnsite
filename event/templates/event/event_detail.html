@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load rest_framework %}
+{% load staticfiles %}
+{% load extra_tags %}
+
+{% block title %}
+    Events
+{% endblock %}
+
+{% block script_start %}
+    <script>
+        var event = {{ event|jsonify }}
+        var guest_list = {{ guest_list|jsonify }}
+        var guest_fields = {{ guest_fields|jsonify }}
+        var guest_infos = {{ guest_infos|jsonify }}
+        var csrf = "{{ csrf_token }}"
+        var duplicates_list = {{ duplicates_list|jsonify }}
+        var layouts = ''
+        var logout_url = "{% url 'logout' %}"
+        {% if layouts != '' %}
+            var layouts = {{ layouts|jsonify }}
+        {% endif %}
+    </script>
+{% endblock %}
+
+{% block content %}
+    <event-detail></event-detail>
+{% endblock %}
+
+{% block scripts_end %}
+    <script src="{% static "compiled/js/event.js" %}"></script>
+{% endblock scripts_end %}

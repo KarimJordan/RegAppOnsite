@@ -1,0 +1,137 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the cards component.
+// -----------------------------------------------------------------------------
+
+// Contianer box
+
+ #draggablePanelList .panel-body {
+        cursor: move;
+    }
+ #draggablePanelList2 .panel-body{
+        cursor: move;
+    }
+
+   
+.container-box {
+	padding: 30px;
+	margin-top: 30px;
+	min-height: 200px;
+	background: $white;
+	border: solid 1px $border;
+	border-radius: 5px;
+  margin-bottom: 50px !important;
+	// box-shadow: 1px 1px 15px #888888;
+}
+.container-box-details {
+	padding: 10px;
+	margin-top: 30px;
+	min-height: 180px;
+	background: $white;
+	border: solid 1px $border;
+	border-radius: 5px;
+	// box-shadow: 1px 1px 15px #888888;
+}
+
+.title {
+  display: block;
+  font-size: 30px;
+  margin:15px 0 10px;
+  padding: 0;
+  text-align: center;
+}
+.sub-title {
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #111;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+    font-size: 25px;
+}
+.green-head {
+		font-size: 20px;
+}
+.bg-green{
+	background-color:$main !important;
+	color: $white;
+	}
+.bg-black-border {
+	background:$white;
+	border: solid 1px #000;
+
+}
+.header-card-trial {
+	color: $main;
+	background: $white;
+	border: solid 1px $main;
+}
+.price li {
+    padding: 20px;
+    text-align: center;
+}
+
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+.button-card-trial {
+    border-radius: 5px;
+    background-color: $main;
+    border: solid 1px #fff;
+    color: #fff;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-space: 2px;
+    text-transform: uppercase;
+}
+.button-card-trial:hover {
+  color: $main;
+  background: #fff;
+  text-decoration: none;
+}
+
+.button-card {
+    border-radius: 5px;
+    background-color: $main;
+    border: none;
+    color: #fff;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-space: 2px;
+    text-transform: uppercase;
+}
+.button-card:hover {
+  color: $main;
+  background: $maingray;
+  text-decoration: none;
+}
+.row-center {
+  text-align:center;
+}
+
+.col-center {
+  display:inline-block;
+  float:none;
+}

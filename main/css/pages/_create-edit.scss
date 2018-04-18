@@ -1,0 +1,127 @@
+.guest-fields {
+  h3 {
+    text-transform: uppercase;
+    color: $main;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .panel {
+    input.form-control {
+      height: 45px;
+      border-radius: 5px;
+    }
+  }
+  .list-field-selection {
+    margin-top: 10px;
+  }
+  .delete-icon a {
+    color: $main;
+    font-size: 25px;
+
+  }
+
+  .delete-icon a:hover {
+    color: red;
+    margin-top: -20px;
+    font-size: 25px;
+    text-decoration: none;
+    .icon-eye {
+      color: $maingray;
+    }
+  }
+  .radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+    margin-left: -20px !important;
+    margin-top: 4px !important;
+  }
+} 
+
+.event-details {
+  margin-top: 10px;
+  .input-group.input-file {
+    margin-top: -30px;
+  }
+  h3 {
+    margin-top: 0px;
+    color: $main;
+    text-transform: uppercase;
+
+  }
+label {
+    text-transform: uppercase;
+    color: $subgray;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 2;
+  }
+  input {
+    margin-bottom: 10px;
+    height: 40px;
+  }
+
+  .col-sm-12 input {
+    width: 80%;
+  }
+}
+
+
+.create-email {
+  margin: 30px auto;
+  h3 {
+    margin-top:30px;;
+    text-align: center;
+    font-size: 24px;
+    color: $maingray;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+  }
+  label {
+    text-transform: uppercase;
+    color: $subgray;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 2;
+  }
+  input, select {
+    margin-bottom: 10px;
+    height: 50px;
+  }
+
+  .col-sm-12 input , select {
+    width: 80%;
+  }
+
+}
+
+
+.custom-fields {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  background: #F5F5F5;
+  min-height: 150px;
+
+    input.form-control {
+      height: 45px;
+      border-radius: 5px;
+      max-width: 400px;
+      min-width: 280px;
+    }
+ 
+}
+
+.note {
+  font-size: 11px;
+  font-style: italic;
+  font-color: #ccc;
+}
+
+.image-note {
+ 
+    font-style: italic;
+    color: $maingray;
+
+}
+
+
+
+
+
+

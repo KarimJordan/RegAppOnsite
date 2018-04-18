@@ -1,0 +1,293 @@
+.note-text {
+	padding-top: 30px;
+	p {
+		font-size: 18px;
+		font-style: italic;
+
+	}
+}
+
+.container-box-multiple {
+	margin-top: 30px;
+	min-height: 60px;
+	background: $white;
+	border: solid 1px $main;
+	border-radius: 5px;
+	// box-shadow: 1px 1px 15px #888888;
+
+
+    th, td { 
+    	// min-width: 200px !important; 
+    	// padding-left: 20px !important;
+    }
+	.search-table-outter { 
+		padding: 0px;
+		margin: 0px;
+		border-right: solid 1px $main;
+		overflow-x: auto; 
+		input, textarea, select {
+			margin: 0 !important;
+		}
+		input {
+			width: 100%;
+			padding: none !important;
+
+		}
+	}
+		table {
+		
+		margin: auto;
+		 border-collapse: collapse;
+		 overflow-x: auto;
+		 display: table;
+		 max-width: 100%;
+	
+		thead {
+			background: $main;
+		}
+		margin-bottom: 0px;
+	}
+
+	.btn-edit {
+		background: $main;
+		color: $white;
+	}
+	
+	.btn-remove {
+		background: red;
+		color: $white;
+	}
+}
+.button-multiple {
+	padding: 20px;
+	text-align: center;
+	a {
+		padding: 20px;
+	}
+	a:hover, a:focus, a:active {
+		text-decoration: none;
+		color: $main;
+	}
+}
+.multiple-red {
+	color: red;
+	font-weight: 600;
+}
+.btn-save-multiple {
+	color: $white;
+	background : $main;
+	min-height: 65px;
+	height: 100%;
+	width: 100%;
+}
+.remove-icn {
+	color: red;
+	font-size: 30px;
+}
+
+.remove-icn:hover {
+	color: $maingray;
+}
+.edit-icn:hover {
+	color: $maingray;
+}
+.edit-icn {
+	color: $main;
+	font-size: 32px;
+}
+
+
+.btn-ignore-new {
+	min-width: 300px;
+	background: red;
+	color: white;
+	height: 50px;
+}
+
+.btn-ignore {
+	min-width: 300px;
+	color: white;
+	height: 50px;
+} 
+.btn-list-200 {
+	min-width: 200px;
+	color: white;
+	height: 50px;
+
+}
+.btn-resolve {
+	min-width: 300px;
+	color: $white;
+	background: $main;
+	height: 50px;
+
+}
+.ul-button {
+	margin-top: 10px;
+}
+
+.modal-window {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.modal-window:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-window>div {
+  max-width: 500px;
+  width: 100%;
+  position: relative;
+  margin: 10% auto;
+  padding: 2rem;
+  background: #fff;
+  color: #444;
+  padding-top: 50px;
+}
+
+.modal-window header {
+  font-weight: bold;
+}
+
+.modal-close {
+  color: #aaa;
+  line-height: 10px;
+  font-size: 80%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+}
+
+.modal-close:hover {
+  color: #000;
+}
+
+.modal-window h1 {
+  font-size: 150%;
+  margin: 0 0 15px;
+}
+
+.btn-delete-yes {
+	background: $main;
+	color: $white;
+	min-height: 50px;
+	min-width: 150px;
+}
+
+.btn-delete-no {
+	background: $lgray;
+	color: $white;
+	min-height: 50px;
+	min-width: 150px;
+}
+.modal-center {
+	text-align: center;
+	.modal-content {
+		max-width: 600px !important;
+		margin: 50px auto !important;
+	}
+}
+.text-center {
+	text-align: center;
+}
+
+.duplicate-td {
+	a span {
+		font-size: 14px;
+	}
+
+	td {
+		input {
+			margin: -4px -2px 2px 0 !important;
+		}
+	}
+}
+
+.btn-duplicate-save {
+	background: $main;
+	color: $white;
+}
+
+
+
+.table-scroll {
+	position:relative;
+	margin:auto;
+	overflow:hidden;
+	border: 1px solid $main;
+	overflow-x: none !important;
+	border-radius: 3px;
+	
+}
+.table-wrap {
+	width:100%;
+	overflow:auto;
+}
+.table-scroll table {
+	width:100%;
+	margin:auto;
+
+	// border-collapse:separate;
+	border-spacing:0;
+}
+.table-scroll th {
+	padding:10px 8px;
+	border:1px solid $lgray;
+	background: $main;
+	white-space:nowrap;
+	vertical-align:top;
+}
+ .table-scroll td {
+	padding:7px 8px;
+
+	border:1px solid $lgray;
+	background:#fff;
+	white-space:nowrap;
+	vertical-align:top;
+}
+.table-scroll thead, .table-scroll tfoot {
+	// background:#f9f9f9;
+}
+.clone {
+	position:absolute;
+	top:0;
+	left:0;
+	pointer-events:none;
+}
+.clone th, .clone td {
+	visibility:hidden;
+	border: 1px solid $lgray !important;
+
+}
+.clone td, .clone th {
+	border-color:transparent;	
+	border: 1px solid $lgray;
+}
+.clone tbody th {
+	visibility:visible;
+	color:red;
+	border: 1px solid $lgray;
+}
+.clone .fixed-side {
+	visibility:visible;
+}
+.clone thead, .clone tfoot{background:transparent;}
+
+.duplicate-buttons {
+	margin-bottom: 40px;
+}

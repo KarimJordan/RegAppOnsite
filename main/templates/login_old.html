@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+    {% include 'header.html' %}
+    <div class="main-banner-login">
+        <div class="container">
+            <div class="card card-container">
+                <center><h2>LOGIN</h2></center>
+                <center><h5>You're one step away to awesomeness!</h5></center>
+                <p id="profile-name" class="profile-name-card"></p>
+                <form class="form-signin">
+                    <div class="email">
+                        <span class="icon-emailad"></span>
+                        <input type="text" id="inputEmail" class="form-control" placeholder="Email address/Username" required
+                               autofocus>
+                    </div>
+                    <div class="pass">
+                        <span class="icon-lock"></span>
+                        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                    </div>
+                    <label class="forgot pull-right"><a href="#">Forgot password?</a></label>
+                    <div id="remember" class="checkbox">
+                        <!-- <label>
+                                <input type="checkbox" value="remember-me"> Remember me
+                            </label> -->
+                    </div>
+                    <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">
+                        Login
+                    </button>
+                    <center><label class="create">No account? Create an account using your email.</label></center>
+                </form><!-- /form -->
+            </div><!-- /card-container -->
+            <!-- Add your site or application content here -->
+            <center><p></p></center>
+        </div>
+    </div>
+{% endblock content %}

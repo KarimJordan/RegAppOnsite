@@ -1,0 +1,147 @@
+{% extends "base.html" %}
+{% block content %}
+    {% include 'header.html' %}
+    <div class="main-banner">
+        <div class="container">
+            <h2 class="head-b-text">Lorem Ipsum is simple and typesetting industry</h2><br>
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                took a galley of type and scrambled it to make a type specimen.</p>
+            <a href="#">
+                <button class="btn-create-m" type="submit"><span class="icon icon-write"></span>Create an Event Now
+                </button>
+            </a>
+        </div>
+    </div>
+
+    <div id="about" class="about-reg">
+        <div class="container">
+            <h2>About Register Online</h2><br>
+            <div class="row">
+                <div class="col-sm-5">
+                    <h4>LOREM IPSUM</h4>
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to make a type specimen. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                        type and scrambled it to make a type specimen.</p><br>
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                        printer took a galley of type and scrambled it to make a type specimen.</p>
+                    <br>
+                    <button class="pull-left btn-more-info" type="submit"><span class="icon icon-write"></span>More Info
+                    </button>
+                </div>
+                <div class="col-sm-7">
+                    <a class="laptop-img" href="http://registeronline.com"><img src="../img/mac-mock.png"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="featured-events" class="featured-events">
+        <div class="container">
+            <h2>Featured Events</h2>
+            <div class="row">
+                <div class="col-sm-7"><img src="../../img/r1.png"></div>
+                <div class="col-sm-5"><img src="content/img/r2.png"></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-4"><img src="content/img/r3.png"></div>
+                <div class="col-sm-4"><img src="content/img/r3.png"></div>
+                <div class="col-sm-4"><img src="content/img/r3.png"></div>
+            </div>
+        </div>
+    </div>
+
+    <section class="padding-110px-tb bg-white builder-bg contact-form-style1 xs-padding-60px-tb" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                    <h2 class="section-title-large sm-section-title-medium xs-section-title-large text-dark-gray font-weight-600 alt-font margin-three-bottom xs-margin-fifteen-bottom tz-text">
+                        Questions? We're standing by!</h2>
+
+
+                    <!-- end section title -->
+                    <div class="col-md-8 col-sm-12 col-xs-12 center-col">
+                        <div class="padding-ten bg-gray tz-background-color xs-padding-eleven border-radius-8">
+                            <form action="javascript:void(0)" method="post">
+                                <div class="col-sm-6 no-padding">
+                                    <input type="text" name="name" data-email="required" id="name"
+                                           placeholder="Your Name" class="medium-input">
+                                </div>
+                                <div class="col-sm-6 no-padding">
+                                    <input type="text" name="email" data-email="required" id="email"
+                                           placeholder="Your Email" class="medium-input">
+                                </div>
+                                <div class="col-sm-6 no-padding">
+                                    <input type="text" name="company" data-email="required" id="email"
+                                           placeholder="Your Company" class="medium-input">
+                                </div>
+                                <div class="col-sm-6 no-padding">
+                                    <input type="text" name="phone" data-email="required" id="email"
+                                           placeholder="Your Mobile number" class="medium-input">
+                                </div>
+                                <div class="col-sm-12 no-padding">
+                                    <input type="text" name="country" data-email="required" id="email"
+                                           placeholder="Your Country" class="medium-input">
+                                </div>
+                                <input type="text" name="subject" data-email="required" id="email" placeholder="Subject"
+                                       class="medium-input">
+                                <textarea name="comment" id="comment" placeholder="Your Message"
+                                          class="medium-input"></textarea>
+                                <div class="g-recaptcha" data-callback="enableBtn" data-theme="light"
+                                     data-sitekey="6LcUkSUUAAAAAAX95zTyBN4_ZWMzBZNP1ydniljb"
+                                     style="transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;"></div>
+                                <button disabled id="send-help-button"
+                                        class="default-submit btn-medium btn-circle btn bg-chrome-yellow text-white tz-text"
+                                        type="submit">SEND MESSAGE
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- end contact details -->
+                </div>
+            </div>
+    </section>
+
+
+    <footer class="bg-dark-gray builder-bg padding-60px-tb xs-padding-40px-tb">
+        <div class="container">
+            <div class="row">
+                <!-- logo -->
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center sm-text-center sm-margin-four-bottom margin-four-bottom">
+                    <div class="padding-five-bottom border-bottom-light tz-border">
+                        <a class="inner-link" href="index.html"><img src="../../img/logo_footer.png"
+                                                                     data-img-size="(W)163px X (H)40px"
+                                                                     alt="Register Online Logo"></a>
+                    </div>
+                </div>
+                <!-- end logo -->
+            </div>
+            <div class="row equalize">
+                <!-- links -->
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center sm-margin-five-bottom text-left sm-text-center display-table">
+                    <div class="display-table-cell-vertical-middle">
+                        <ul class="links-inline">
+                            <li><a data-toggle="modal" href="#distributorModal" class="tz-text text-blue-gray">Distributors</a>
+                            </li>
+                            <li><a class="tz-text text-blue-gray" href="privacy.html">Privacy Policy</a></li>
+                            <li><a class="tz-text text-blue-gray" href="termsweb.html">Website Terms of Use</a></li>
+                            <li><a class="tz-text text-blue-gray" href="termsofsale.html">Terms of Sales</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- end links -->
+
+
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center display-table">
+                    <div class="display-table-cell-vertical-middle">
+                        <div class="tz-text text-blue-gray"><p class="no-margin-bottom">&copy; 2017 Futureworks
+                            International Limited</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+{% endblock %}

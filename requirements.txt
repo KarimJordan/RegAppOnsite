@@ -1,0 +1,29 @@
+# django framwork
+# doc link https://docs.djangoproject.com/en/2.0/
+Django>=2.0
+
+django-sass-processor>=0.5.7
+
+django-webpack-loader>=0.5.0
+
+# Django Rest Framework
+# http://www.django-rest-framework.org/
+# Will be integrated into Django in the future:
+djangorestframework>=3.7.1
+
+libsass>=0.13.4
+
+Pillow>=4.3.0
+
+# python excel api plugin for django
+# link: https://github.com/pyexcel/pyexcel
+pyexcel>=0.5.6
+
+#http://django-debug-toolbar.readthedocs.io/en/stable/
+django-debug-toolbar>=1.9.1
+
+virtualenv>=15.1.0
+django-excel>=0.0.9
+pyexcel-xlsx>=0.5.5
+django-allauth>=0.34.0
+XlsxWriter>=1.0.2

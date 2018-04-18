@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load rest_framework %}
+{% load staticfiles %}
+{% load extra_tags %}
+
+{% block script_start %}
+    <script>
+        var layout =
+        {{ layout|jsonify }}
+        var csrf = "{{ csrf_token }}"
+        var guest_info_fields =
+        {{ guest_info_fields|jsonify }}
+        var event_id =
+        {{ event_id }}
+        var removed_fields =
+        {{ removed_fields|jsonify }}
+    </script>
+{% endblock %}
+
+{% block title %}
+    Layout Editor
+{% endblock %}
+
+{% block content %}
+    <layout-form></layout-form>
+{% endblock %}
+
+{% block scripts_end %}
+    <script src="{% static "compiled/js/layout.js" %}"></script>
+{% endblock scripts_end %}

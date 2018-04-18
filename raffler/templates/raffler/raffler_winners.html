@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load rest_framework %}
+{% load staticfiles %}
+{% load extra_tags %}
+
+{% block script_start %}
+    <script>
+        var csrf = "{{ csrf_token }}"
+        var event_id =
+        {{ event_id }}
+        var guest_fields = {{ guest_fields|jsonify }}
+        var winner_list = {{ winner_list|jsonify }}
+        var raffle_id = {{ raffle_id }}
+        {#        var raffles = {{ results|jsonify }}#}
+    </script>
+{% endblock %}
+
+{% block title %}
+    Winner
+{% endblock %}
+
+{% block content %}
+    <raffler-winner></raffler-winner>
+{% endblock %}
+
+{% block scripts_end %}
+    <script src="{% static "compiled/js/raffler.js" %}"></script>
+{% endblock scripts_end %}

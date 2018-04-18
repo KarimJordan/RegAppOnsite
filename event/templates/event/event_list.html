@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load rest_framework %}
+{% load staticfiles %}
+{% load extra_tags %}
+
+{% block script_start %}
+    <script>
+        var events = {{ results|jsonify }}
+        var user = "{{ user }}"
+        var count = {{ count }}
+        var csrf = "{{ csrf_token }}";
+    </script>
+{% endblock %}
+
+{% block title %}
+    Events
+{% endblock %}
+
+{% block content %}
+    <event-list></event-list>
+{% endblock %}
+
+{% block scripts_end %}
+    <script src="{% static "compiled/js/event.js" %}"></script>
+{% endblock scripts_end %}

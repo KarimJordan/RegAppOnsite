@@ -1,0 +1,151 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the accounts page.
+// -----------------------------------------------------------------------------
+.event-list {
+	.table-striped {
+		border: 1px solid #ccc !important;
+	}
+	table {
+		border: 1px solid $maingray !important;
+	}
+	h3 {
+		color: $maingray;
+		font-family: 'Raleway', sans-serif;
+	}
+	tr {
+		border-top: none !important;
+	}
+	td {
+		border: none !important;
+	}
+
+	th {
+		color: #fff !important;
+	}
+	thead {
+		border-radius: 30px !important;
+	}
+	td {
+		color: $maingray;
+	}
+	a {
+		color: $main;
+		font-weight: 600;
+		
+	}
+	a:hover {
+			color: $maingray;
+			text-decoration: none;
+		}
+}
+.box-number {
+	
+	border-radius: 5px;
+	border: solid 2px $main;
+	height: auto;
+	width: 100%;
+	
+	h1 {
+		font-size: 100px;
+		margin: 0 auto !important;
+		display: block;
+		font-color: $white;
+		align-horizontal: middle;
+		text-align: center;
+      	font-family: 'Raleway', sans-serif;
+      	font-weight: 700;
+      	color: $main;
+	}
+	p {
+		text-align:center;
+		font-size: 24px;
+		font-weight: 600;
+		color: $maingray;
+		margin-top: 10px;
+		font-family: 'Raleway', sans-serif;
+	}
+}
+
+.btn-box {
+	margin-top: 20px;	
+	width: 100%;
+	
+}
+
+
+.acct-det {
+	margin-top: 20px;
+	span.head-t {
+		color: $main;
+		font-size: 26px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 600;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+	}
+	.details {
+		margin-top: 10px;
+		.label-email  {
+			font-style: italic;
+			color: $subgray;
+			text-transform: none;
+
+		}
+		label {
+			font-size: 18px;
+			font-weight: 400;
+			text-transform: uppercase;
+			color: $maingray;
+			letter-spacing: 1px;
+			font-family: 'Montserrat', sans-serif;
+
+		}
+		p {
+			font-size: 16px;
+			font-weight: 300;
+			color: $maingray;
+			font-family: 'Montserrat', sans-serif;
+			letter-spacing: 1px;
+		}
+	}
+	
+}
+
+
+
+.email-t-b {
+	margin-top: 30px;
+	border-radius: 5px;
+	border: solid 2px $main;
+	height: auto;
+	min-height: 130px;
+	width: 100%;
+	padding: 20px;
+	h4 {
+		padding: 0;
+		margin: 0;
+		color: $maingray;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 16px;
+	}
+}
+
+
+.guest-list {
+	margin-top: 40px;
+	h3 {
+		color: $maingray;
+		text-transform: uppercase;
+		margin-right: 20px;
+	}
+	.icon {
+		color: $subgray;
+		font-size: 18px;
+		margin-right: 10px;
+	}
+	ul li a {
+		font-size: 18px;
+		color: $subgray;
+	}
+}
+

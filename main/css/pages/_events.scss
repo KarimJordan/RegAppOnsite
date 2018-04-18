@@ -1,0 +1,738 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the accounts page.
+// -----------------------------------------------------------------------------
+
+
+.nav-tabs > li {
+	min-width: 150px;
+	text-align: center;
+	a {
+		color: $dark !important;
+		font-size: 14px;
+		font-weight: 500;
+		text-transform: uppercase;
+	}
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+	border-bottom: 0px !important;
+	background: $main !important;
+	color: $white !important;
+
+}
+
+
+.event-tabs-table { 
+	.table-scroll {
+    position:relative;
+    max-width:600px;
+    margin:auto;
+    overflow:hidden;
+    border:1px solid #000;
+}
+.table-wrap {
+    width:100%;
+    overflow:auto;
+
+
+    ul {
+
+// start
+    
+
+
+
+
+// end
+    }
+}
+.table-scroll table {
+    width:100%;
+    margin:auto;
+    border-collapse:separate;
+    border-spacing:0;
+}
+.table-scroll th, .table-scroll td {
+    padding:5px 10px;
+    background:#fff;
+    white-space:nowrap;
+    vertical-align:top;
+}
+.table-scroll thead, .table-scroll tfoot {
+    background:#f9f9f9;
+}
+.clone {
+    position:absolute;
+    top:41px;
+    left:15px;
+    float: right;
+    pointer-events:none;
+}
+.clone th, .clone td {
+    visibility:hidden
+}
+.clone td, .clone th {
+    padding: 8px;
+    line-height: 1.42857;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+.clone tbody th {
+    visibility:visible;
+    color:red;
+}
+.clone .fixed-side {
+    background:#fff;
+    visibility:visible;
+}
+.clone th.fixed-side {
+    background: $main;
+}
+.clone thead, .clone tfoot{background:transparent;}
+
+
+	th, td { 
+    	// min-width: 150px !important; 
+    padding-left: 8px !important;
+	    
+
+    }
+		padding: 0px;
+		margin: 0px;
+		overflow-x: auto; 
+		input, textarea, select {
+			margin: 0 !important;
+		}
+    input[type=checkbox] {
+      width: 15px;
+      height: 15px;
+    }
+		input {
+			width: 100%;
+		}
+	}
+		table {
+		
+		margin: auto;
+		 border-collapse: collapse;
+		 overflow-x: auto;
+		 display: table;
+		 max-width: 100%;
+	
+		thead {
+			margin:0;
+			background: $main;
+		}
+		margin-bottom: 0px;
+	}
+
+
+
+
+
+
+
+
+#myTab {
+	.form-group {
+		margin-bottom: 0 !important;
+	}
+}
+.search-form .form-group {
+  float: right !important;
+  transition: all 0.35s, border-radius 0s;
+  
+  height: 40px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  // border-radius: 25px;
+  border: 1px solid #ccc;
+  min-width: 300px;
+  width: 100%;
+  border-radius: 4px 25px 25px 4px;
+}
+.search-form .form-group input.form-control {
+  padding-right: 30px;
+  border: 0 none;
+  background: transparent;
+  box-shadow: none;
+  display:block;
+}
+.search-form .form-group input.form-control::-webkit-input-placeholder {
+  display: none;
+}
+.search-form .form-group input.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  display: none;
+}
+.search-form .form-group input.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  display: none;
+}
+.search-form .form-group input.form-control:-ms-input-placeholder {
+  display: none;
+}
+
+.search-form .form-group:hover
+ {
+min-width: 300px;
+  width: 100%;
+  border-radius: 4px 25px 25px 4px;
+}
+
+
+.form-group:focus, .form-group:active {
+min-width: 300px;
+  width: 100%;
+  border-radius: 4px 25px 25px 4px;
+}
+.search-form .form-group span.form-control-feedback {
+  position: absolute;
+  top: -2px;
+  right: 0px;
+  z-index: 2;
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 34px;
+  text-align: center;
+  color: $main;
+  left: initial;
+  font-size: 18px;
+}
+#myTabContent {
+	.remove-icn {
+		color: red;
+		font-size: 18px;
+	}
+
+	.remove-icn:hover {
+		color: $maingray;
+	}
+	.edit-icn:hover {
+		color: $maingray;
+	}
+	.edit-icn {
+		color: $main;
+		font-size: 18px;
+	}
+}
+.fixed-side {
+  max-width: 80px;
+	a {
+	 padding-right:10px !important;		
+	}
+}
+
+// Start of events landing 
+
+.event-single-container {
+	border-radius: 5px;
+	min-height: 230px;
+	border: solid 1px #ccc;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	position: relative;
+
+	.event-box-content {
+		padding: 0px 20px;
+	}
+	ul {
+		margin-bottom: 0;
+	}
+	
+	.event-info {
+		h4 {
+			font-size: 18px !important;
+			color: $maingray;
+		}
+	}
+	.event-linker-box {
+		position: relative;
+	}
+	.event-time {
+		h5 {
+			font-style: italic !important;
+			font-size: 14px;
+			color: $maingray;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 300;
+		}
+	}
+	.event-header-title {
+		font-size: 22px;
+		color: $main;
+	}
+	a h3{
+		color:$main;
+	}
+	a h3:hover {
+		color: $maingray !important;
+	}
+	.event-box-links {
+		font-size: 18px;
+		color: $main;
+		font-decoration: underline;
+		margin-bottom: 20px;
+	}
+	.remove-event {
+		margin-top: 20px;
+		a {
+			font-size: 20px;
+			margin-top: 20px;
+		}
+	}
+
+	.event-footer {
+		min-height: 45px;
+		background: $main;
+		position: relative;
+		width: 100% !important;
+		color: $white;
+		padding-top: 12px;
+		position: absolute;
+		display: block;
+		bottom: 0;
+	}
+	a:hover .event-footer:hover {
+		background: $maingray;
+	}
+}
+
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+
+	background: $main !important;
+	border-color: $main !important;
+}
+
+.note-event {
+	font-size: 18px;
+	font-style: italic;
+	color: $maindark;
+}
+
+.mod-content-delete {
+	max-width: 300px;
+	border-radius: 0;
+	margin: 0 auto;
+	min-height: 100px;
+	margin-top: 100px;
+	.modal-body {
+		min-height: 120px;
+	}
+	h4 {
+		line-height: 1.5;
+	}
+	.btn-delete {
+		border-radius: 3px;
+		background: $main;
+		min-width: 90px;
+	}
+}
+
+
+.btn-box {
+	input[type=checkbox] { display:none; } /* to hide the checkbox itself */
+input[type=checkbox] + label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+}
+
+input[type=checkbox] + label:before { content: "\f096"; } /* unchecked icon */
+input[type=checkbox] + label:before { letter-spacing: 10px; } /* space between checkbox and label */
+
+input[type=checkbox]:checked + label:before { content: "\f046"; } /* checked icon */
+input[type=checkbox]:checked + label:before { letter-spacing: 5px; } /* allow space for check mark */
+}
+
+
+
+.btn-box {
+.radio label, .checkbox label {
+	padding-left: 0;
+}
+i.cr-icon.glyphicon.glyphicon-ok{
+	color: $main;
+}
+
+.radio, .checkbox {
+	padding-left: 0px;
+	color: $main;
+}
+.checkbox label:after, 
+.radio label:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.checkbox .cr,
+.radio .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+    border-radius: .25em;
+    width: 1.4em;
+    height: 1.4em;
+    float: left;
+    margin-right: .5em;
+}
+
+.radio .cr {
+    border-radius: 50%;
+}
+
+.checkbox .cr .cr-icon,
+.radio .cr .cr-icon {
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 20%;
+}
+
+.radio .cr .cr-icon {
+    margin-left: 0.04em;
+}
+
+.checkbox label input[type="checkbox"],
+.radio label input[type="radio"] {
+    display: none;
+}
+
+.checkbox label input[type="checkbox"] + .cr > .cr-icon,
+.radio label input[type="radio"] + .cr > .cr-icon {
+    transform: scale(3) rotateZ(-20deg);
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+
+.checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,
+.radio label input[type="radio"]:checked + .cr > .cr-icon {
+    transform: scale(1) rotateZ(0deg);
+    opacity: 1;
+}
+
+.checkbox label input[type="checkbox"]:disabled + .cr,
+.radio label input[type="radio"]:disabled + .cr {
+    opacity: .5;
+}
+}
+
+.form-date-time {
+	input {
+		background: #EBEBEB !important;
+	}
+}
+
+
+.modal-cooler {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99999 !important;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.modal-cooler:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-cooler>div {
+  max-width: 500px;
+  width: 100%;
+  position: relative;
+  margin: 10% auto;
+  padding: 2rem;
+  background: #fff;
+  color: #444;
+  padding-top: 50px;
+}
+
+.modal-cooler header {
+  font-weight: bold;
+}
+
+.modal-close {
+  color: #aaa;
+  line-height: 10px;
+  font-size: 80%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+}
+
+.modal-close:hover {
+  color: #000;
+}
+.upload-success {
+	color: $main;
+}
+.upload-note {
+	line-height: 30px;
+	span {color: red;}
+	}
+
+
+.event-list {
+	margin-top: 30px;
+}
+
+.duplicate-on {
+	.btn-manage-g {
+		border: $red solid 1px;
+		background: $lgray;
+		color: $red;
+		.icon {
+			color: $red;
+		}
+	}
+}
+
+#myTab {
+	li {
+		a {
+		background: $lgray;
+	}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.demo {margin:4em auto}
+
+
+// Quickly SCSS'ed
+// Handful of questionable important flags
+
+.dataTables_length {
+  label {float:left;text-align:left}
+  select {width:75px}
+}
+.dataTables_filter {
+  label {float:right}
+}
+.dataTables_info {padding-top:26px}
+.dataTables_paginate {float:right;margin:0}
+
+//table {
+//  &.table {
+//    clear:both;
+//    margin-bottom:6px !important;
+//    max-width:none !important;
+//    thead {
+//      .sorting,
+//      .sorting_asc,
+//      .sorting_desc,
+//      .sorting_asc_disabled,
+//      .sorting_desc_disabled {cursor:pointer;*cursor:hand}
+//      .sorting { background: url('../images/sort_both.png') no-repeat center right; }
+//      .sorting_asc { background: url('../images/sort_asc.png') no-repeat center right; }
+//      .sorting_desc { background: url('../images/sort_desc.png') no-repeat center right; }
+//      .sorting_asc_disabled { background: url('../images/sort_asc_disabled.png') no-repeat center right; }
+//      .sorting_desc_disabled { background: url('../images/sort_desc_disabled.png') no-repeat center right; }
+//    }
+//  }
+//  &.dataTable {
+//    th:active {outline:none}
+//  }
+//}
+
+/* Scrolling */
+.dataTables_scrollHead table {
+  margin-bottom: 0 !important;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  thead {
+    tr:last-child {
+      th:first-child,td:first-child {
+        border-bottom-left-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+      }
+    }
+  }
+}
+.dataTables_scrollBody {
+  table {
+    border-top: none;
+    margin-bottom: 0 !important;
+    tbody tr:first-child {
+      th, td {border-top:none}
+    }
+  }
+}
+.dataTables_scrollFoot table {
+  border-top: none;
+}
+
+
+/*
+ * TableTools styles
+ */
+
+.table tbody tr {
+  &.active {
+    td,th {background-color:#08C;color:white}
+    &:hover {
+      td,th {background-color: #0075b0 !important}
+    }
+  }
+}
+.table-striped tbody tr {
+  &.active:nth-child(odd) {
+    td,th {background-color: #017ebc;}
+  }
+}
+
+table.DTTT_selectable tbody tr {cursor: pointer;*cursor: hand}
+
+.DTTT {
+  .btn {
+    color: #333 !important;
+    font-size: 12px;
+    &:hover {text-decoration: none !important;}
+  }
+}
+
+ul.DTTT_dropdown.dropdown-menu li:hover a {
+  background-color: #0088cc;
+  color: white !important;
+}
+
+/* TableTools information display */
+
+.DTTT_print_info {
+  &.modal {
+    height: 150px;
+    margin-top: -75px;
+    text-align: center;
+  }
+  h6 {
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 28px;
+    margin: 1em;
+  }
+  p {font-size:14px;line-height:20px}
+}
+
+/*
+ * FixedColumns styles
+ */
+div.DTFC_LeftHeadWrapper table,
+div.DTFC_LeftFootWrapper table,
+table.DTFC_Cloned tr.even {
+  background-color: white;
+}
+
+div.DTFC_LeftHeadWrapper table {
+  margin-bottom: 0 !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+div.DTFC_LeftHeadWrapper table thead tr:last-child th:first-child,
+div.DTFC_LeftHeadWrapper table thead tr:last-child td:first-child {
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+div.DTFC_LeftBodyWrapper table {
+  border-top: none;
+  margin-bottom: 0 !important;
+}
+
+div.DTFC_LeftBodyWrapper tbody tr:first-child th,
+div.DTFC_LeftBodyWrapper tbody tr:first-child td {
+  border-top: none;
+}
+
+div.DTFC_LeftFootWrapper table {
+  border-top: none;
+}
+
+.fixed-table-container table {
+  overflow-x: scroll !important;
+}
+
+.bootstrap-table .table:not(.table-condensed), .bootstrap-table .table:not(.table-condensed) > tbody > tr > th, .bootstrap-table .table:not(.table-condensed) > tfoot > tr > th, .bootstrap-table .table:not(.table-condensed) > thead > tr > td, .bootstrap-table .table:not(.table-condensed) > tbody > tr > td, .bootstrap-table .table:not(.table-condensed) > tfoot > tr > td {
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+  padding-bottom: 5px !important; 
+  white-space:nowrap !important;
+}
+
+.fixed-table-container input[type="radio"], .fixed-table-container input[type="checkbox"] {
+  width: 15px; 
+  height: 15px;
+}
+
+td input {
+  height: 25px !important;
+  padding: 5px !important;
+  font-size: 12px !important;
+}
+.btn-save-event {
+  background: $main;
+  padding-left: 6px;
+  padding-top: 3px;
+  height: 25px;
+  border-radius: 3px;
+  color: $white;
+
+}
+
+
+.done-event {
+  background: $lgray;
+  a {
+    color : #A4A4A4;
+  }
+  td {
+    color:  #A4A4A4;
+  }
+}
+
+.checkbox-table {
+    input[type=checkbox] {
+      width: 15px !important;
+      height: 15px !important;
+    }
+}
+.table-wrap {
+ input {
+    margin-bottom: 0 !important;
+  }
+}
+
+.event-delete-btn {
+  color: red;
+  border: 0;
+  background: #f9f9f9 !important;
+  :hover {
+    color: $main;
+  }
+}
+

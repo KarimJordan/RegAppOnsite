@@ -1,0 +1,396 @@
+
+// icon css here
+.inputContainer {
+  position: relative;
+  color: #aaa;
+  font-size: 16px;
+  color: #000;
+}
+
+.inputContainer input, .lname input, .fname input {
+  color: #000;
+  width: 250px;
+  height: 32px;
+  background: #fcfcfc;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+}
+
+.inputContainer input { text-indent: 32px;}
+.inputContainer .icon-emailad {
+  font-size: 20px;
+  color: $main;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 999;
+}
+.inputContainer input { text-indent: 32px;}
+.inputContainer .icon-person {
+  font-size: 20px;
+  color: $main;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 999;
+}
+
+.inputContainer .icon-company {
+  font-size: 20px;
+  color: $main;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 999;
+}
+
+
+
+
+.email {
+  position: relative;
+  color: #aaa;
+  font-size: 16px;
+  color: #000;
+}
+
+.email input, .lname input, .fname input {
+  color: #000;
+  width: 250px;
+  height: 32px;
+  background: transparent;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+}
+
+.email input { text-indent: 32px;}
+.email .icon-emailad {
+  font-size: 20px;
+  color: $main;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 999;
+}
+
+.email .icon-company {
+  font-size: 20px;
+  color: $main;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 999;
+}
+
+
+.pass {
+  position: relative;
+  color: #aaa;
+  font-size: 16px;
+  color: #000;
+}
+
+.pass input {
+  color: #000;
+  width: 250px;
+  height: 32px;
+
+  background: #fcfcfc;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+}
+
+.pass input { text-indent: 32px;}
+.pass .icon-lock {
+  font-size: 20px;
+  color: $main;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 999;
+}
+// icon end
+body.login {
+  // background: url("../img/bg_wall.jpg") no-repeat center center fixed; 
+  // background: #fff;
+
+  // -webkit-background-size: cover;
+  // -moz-background-size: cover;
+  // -o-background-size: cover;
+  // background-size: cover;
+}
+
+.card-container.card {
+    max-width: 450px;
+    padding: 30px 30px;
+    h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      color: $main;
+      letter-spacing: 2px;
+    }
+    h5 {
+      line-height: 2;
+      font-size: 14px;
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: 2px;
+      color: $maingray;
+      font-weight: 400;
+    }
+}
+.btn {
+    font-weight: 700;
+    height: 36px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+/*
+ * Card component
+ */
+.card {
+    background-color: #fff;
+    /* just in case there no content*/
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 50px;
+    border-radius: 5px;
+    /* shadows and rounded borders */
+   border-bottom: 0 none;
+   border: solid 1px #F0F0F0;
+  -webkit-box-shadow: 0 10px 8px -5px #F2F2F2;
+  -moz-box-shadow: 0 10px 8px -5px #F2F2F2;
+box-shadow: 0 15px 50px rgba(0,0,0,0.30), 0 15px 12px rgba(0, 0, 0, 0);
+
+}
+
+.profile-img-card {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+/*
+ * Form styles
+ */
+.profile-name-card {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 0;
+    min-height: 1em;
+}
+
+.reauth-email {
+    display: block;
+    color: #404040;
+    line-height: 2;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.fname input,
+.lname input{
+  margin-top: 8px;
+  }
+
+.form-signin .fname,
+.form-signin .lname{
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: $subgray;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+
+.form-signin #inputEmail,
+.form-signin #inputPassword,
+.form-signin #inputLname,
+.form-signin #inputFname,
+.form-signin #userFName,
+.form-signin #userLName,
+.form-signin #userCompany,
+.form-signin #userEmail {
+    direction: ltr;
+    height: 50px;
+    font-size: 16px;
+}
+
+
+// .form-signin input:placeholder {
+//   text-transform: uppercase;
+// }
+.form-signin input[type=email]::-webkit-input-placeholder,
+.form-signin input[type=password]::-webkit-input-placeholder,
+.form-signin input[type=text]::-webkit-input-placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.form-signin input[type=email],
+.form-signin input[type=password],
+.form-signin input[type=text],
+.form-signin button {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    z-index: 1;
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-color: $main;
+    letter-spacing: 2px;
+}
+
+.form-signin .form-control:focus {
+    border-color: $main;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+}
+
+.btn.btn-signin, .btn.btn-signup {
+    /*background-color: #4d90fe; */
+    font-family: 'Montserrat', sans-serif;
+    color: $white;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    background: $main;
+    /* background-color: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));*/
+    padding: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    height: 45px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    -o-transition: all 0.218s;
+    -moz-transition: all 0.218s;
+    -webkit-transition: all 0.218s;
+    transition: all 0.218s;
+}
+
+.btn.btn-signin:hover,
+.btn.btn-signin:active,
+.btn.btn-signin:focus {
+    background-color: $maingray;
+}
+.btn.btn-signup:hover,
+.btn.btn-signup:active,
+.btn.btn-signup:focus {
+    background-color: $maingray;
+}
+
+.forgot-password {
+    color: rgb(104, 145, 162);
+}
+
+.forgot-password:hover,
+.forgot-password:active,
+.forgot-password:focus{
+    color: rgb(12, 97, 33);
+}
+
+
+
+
+
+////////////////
+label.forgot {
+  color: $subgray;
+  font-weight: 300;
+  font-style: italic;
+  text-decoration: underline;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+
+}
+label.create {
+  color: $subgray;
+  font-weight: 300;
+  font-style: italic;
+
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+
+}
+
+
+
+
+/* Shared */
+.loginBtn {
+  box-sizing: border-box;
+  position: relative;
+  /* width: 13em;  - apply for fixed size */
+  margin: 0.2em;
+  padding: 0 15px 0 46px;
+  border: none;
+  text-align: left;
+  line-height: 34px;
+  white-space: nowrap;
+  border-radius: 0.2em;
+  color: #FFF;
+
+}
+.loginBtn:before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 34px;
+  height: 100%;
+}
+.loginBtn:focus {
+  outline: none;
+}
+.loginBtn:active {
+  box-shadow: inset 0 0 0 32px rgba(0,0,0,0.1);
+}
+
+
+/* Facebook */
+.loginBtn--facebook {
+  background-color: #4C69BA;
+  background-image: linear-gradient(#4C69BA, #3B55A0);
+  /*font-family: "Helvetica neue", Helvetica Neue, Helvetica, Arial, sans-serif;*/
+  text-shadow: 0 -1px 0 #354C8C;
+}
+.loginBtn--facebook:before {
+  border-right: #364e92 1px solid;
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/icon_facebook.png') 6px 6px no-repeat;
+}
+.loginBtn--facebook:hover,
+.loginBtn--facebook:focus {
+  background-color: #5B7BD5;
+  background-image: linear-gradient(#5B7BD5, #4864B1);
+}
+
+
+
+
+
+

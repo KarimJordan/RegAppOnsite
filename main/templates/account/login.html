@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block content %}
+
+    <div class="main-banner-login">
+        <div class="container">
+            <div class="card card-container">
+                <center><h2>LOGIN</h2></center>
+                <center><h5>You're one step away to awesomeness!</h5></center>
+                <p id="profile-name" class="profile-name-card"></p>
+                <form class="form-signin" action="{% url 'login' %}" method="POST">
+                    {% csrf_token %}
+                    <div class="email">
+                        <span class="icon-emailad"></span>
+                        <input name="login" type="text" id="inputEmail" class="form-control"
+                               placeholder="Username" required
+                               autofocus>
+                    </div>
+                    <div class="pass">
+                        <span class="icon-lock"></span>
+                        <input name="password" type="password" id="inputPassword" class="form-control"
+                               placeholder="Password" required>
+                    </div>
+                    <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">
+                        Login
+                    </button>
+
+                    {% if form.errors %}
+                        <div class="alert alert-danger">
+                            <i class="fa fa-warning"></i> <strong>Username or Password is invalid</strong>
+                        </div>
+                    {% endif %}
+
+                    <input type="hidden" name="next" value="{{ next }}"/>
+                    <center><label class="create">No account? Create an account using your email.</label></center>
+                </form><!-- /form -->
+            </div><!-- /card-container -->
+            <!-- Add your site or application content here -->
+            <center><p></p></center>
+        </div>
+    </div>
+{% endblock content %}
